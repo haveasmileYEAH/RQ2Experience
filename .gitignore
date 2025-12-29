@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Data: 不上传原始视频和大缓存
+data/vsb_videos/
+data/video_data/
+data/raw/
+cache/
+
+# 模型权重（源码仓库可选）
+models/
+# 如果你以后想把 LLaVA-NeXT 源码一起上传，可以改为：
+# models/
+# !models/LLaVA-NeXT/
+# models/LLaVA-NeXT/.git/
+
+# 工作目录：默认忽略，保留关键结果文件
+work/*
+!work/step1_inference_only.jsonl
+
+# Jupyter 等
+.ipynb_checkpoints/
+*.ipynb
