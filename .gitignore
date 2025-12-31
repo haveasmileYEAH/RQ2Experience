@@ -30,3 +30,10 @@ work/*
 # Jupyter 等
 .ipynb_checkpoints/
 *.ipynb
+
+# === RQ2 local data & models ===
+data/vsb_raw/
+model/
+
+# Large archives / local tarballs
+*.tar.gz
